@@ -2,7 +2,10 @@
 
 
 官方cook book  
-https://doc.rust-lang.org/cargo/index.html
+https://doc.rust-lang.org/book/  
+
+The cargo book  
+https://doc.rust-lang.org/cargo/index.html  
 
 cook book  
 https://rust-lang-nursery.github.io/rust-cookbook/intro.html#cookin-with-rust  
