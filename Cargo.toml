@@ -1,0 +1,9 @@
+[package]
+name = "rust-test"
+version = "0.1.0"
+authors = ["Shawn <qqdog1@yahoo.com.tw>"]
+edition = "2020"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
