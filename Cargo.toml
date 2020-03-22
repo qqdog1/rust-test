@@ -15,5 +15,9 @@ name = "main"
 path = "src/main.rs"
 
 [[bin]]
-name = "loggerTest"
-path = "src/loggerTest.rs"
+name = "console_log_test"
+path = "src/consoleLogTest.rs"
+
+[[bin]]
+name = "file_log_test"
+path = "src/fileLogTest.rs"
