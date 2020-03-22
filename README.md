@@ -11,7 +11,7 @@ cook book
 https://rust-lang-nursery.github.io/rust-cookbook/intro.html#cookin-with-rust  
 
 Rust github  
-https://github.com/rust-lang/log  
+https://github.com/rust-lang  
 
 3rd party document  
 https://docs.rs/  
