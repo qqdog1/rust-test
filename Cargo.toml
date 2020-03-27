@@ -21,3 +21,7 @@ path = "src/consoleLogTest.rs"
 [[bin]]
 name = "file_log_test"
 path = "src/fileLogTest.rs"
+
+[[bin]]
+name = "console_input_test"
+path = "src/consoleInputTest.rs"
