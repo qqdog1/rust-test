@@ -22,29 +22,28 @@ fn guessing() {
 }
 
 fn get_random_number() -> u8 {
-    return rand::thread_rng().gen_range(1, 101);
+    rand::thread_rng().gen_range(1, 101)
 }
 
 fn read_user_input() -> u8 {
     let mut guess = String::new();
     io::stdin().read_line(&mut guess).expect("Failed to read line.");
-    let guess: u8 = guess.trim().parse().expect("Please input a number.");
-    return guess;
+    guess.trim().parse().expect("Please input a number.")
 }
 
 fn compare_num(input: u8, secret: u8) -> bool {
     match input.cmp(&secret) {
         Ordering::Less => {
             println!("Too small.");
-            return false
+            false
         },
         Ordering::Greater => {
             println!("Too big.");
-            return false
+            false
         },
         Ordering::Equal => {
             println!("Get it.");
-            return true
+            true
         }
     }
 }
