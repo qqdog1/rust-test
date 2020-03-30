@@ -4,12 +4,12 @@ use log4rs::append::console::ConsoleAppender;
 use log4rs::config::{Appender, Config, Root};
 
 fn main() {
-    initlogger();
+    init_logger();
 
     info!("ggg");
 }
 
-fn initlogger() {
+fn init_logger() {
     let stdout = ConsoleAppender::builder().build();
 
     let config = Config::builder()
