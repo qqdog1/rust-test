@@ -10,7 +10,7 @@ fn main() {
 
 fn guessing() {
     let secret_num = get_random_number();
-    println!("New game started, guess a number.");
+    println!("New game started.");
 
     loop {
         let user_input = read_user_input();
@@ -22,14 +22,18 @@ fn guessing() {
 }
 
 fn get_random_number() -> u8 {
-    rand::thread_rng().gen_range(1, 101)
+    rand::thread_rng().gen_range(1, 100)
 }
 
 fn read_user_input() -> u8 {
     let mut guess = String::new();
     loop {
+        println!("guess a number(1~99)");
         guess.clear();
         io::stdin().read_line(&mut guess).expect("Failed to read line.");
+        if guess.len() > 3 {
+            continue;
+        }
         match guess.trim().parse(){
             Ok(num) => return num,
             Err(_) => continue
