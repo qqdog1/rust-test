@@ -17,16 +17,16 @@ path = "src/main.rs"
 
 [[bin]]
 name = "console_log_test"
-path = "src/consoleLogTest.rs"
+path = "src/console_log_test.rs"
 
 [[bin]]
 name = "file_log_test"
-path = "src/fileLogTest.rs"
+path = "src/file_log_test.rs"
 
 [[bin]]
 name = "console_input_test"
-path = "src/consoleInputTest.rs"
+path = "src/console_input_test.rs"
 
 [[bin]]
 name = "guessing_number"
-path = "src/guessingNumber.rs"
+path = "src/guessing_number.rs"
