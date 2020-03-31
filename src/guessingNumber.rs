@@ -26,8 +26,9 @@ fn get_random_number() -> u8 {
 }
 
 fn read_user_input() -> u8 {
+    let mut guess = String::new();
     loop {
-        let mut guess = String::new();
+        guess.clear();
         io::stdin().read_line(&mut guess).expect("Failed to read line.");
         match guess.trim().parse(){
             Ok(num) => return num,
