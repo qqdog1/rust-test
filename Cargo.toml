@@ -30,3 +30,11 @@ path = "src/console_input_test.rs"
 [[bin]]
 name = "guessing_number"
 path = "src/guessing_number.rs"
+
+[[bin]]
+name = "tuple_test"
+path = "src/tuple_test.rs"
+
+[[bin]]
+name = "loop_test"
+path = "src/loop_test.rs"
