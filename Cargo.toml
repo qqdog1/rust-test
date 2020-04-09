@@ -30,3 +30,7 @@ path = "src/console_input_test.rs"
 [[bin]]
 name = "guessing_number"
 path = "src/guessing_number.rs"
+
+[[bin]]
+name = "string_memory_test"
+path = "src/string_memory_test.rs"
