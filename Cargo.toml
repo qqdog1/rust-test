@@ -34,3 +34,7 @@ path = "src/guessing_number.rs"
 [[bin]]
 name = "string_memory_test"
 path = "src/string_memory_test.rs"
+
+[[bin]]
+name = "struct_test"
+path = "src/struct_test.rs"
